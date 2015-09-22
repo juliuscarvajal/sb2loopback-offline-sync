@@ -1,0 +1,28 @@
+{
+  "name": "Todo",
+  "base": "PersistedModel",
+  "strict": "throw",
+  "persisteUndefinedAsNull": true,
+  "trackChanges": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "defaultFn": "guid"
+    },
+    "title": {
+      "type": "string"
+    },
+    "completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "created": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

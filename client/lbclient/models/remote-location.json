@@ -1,0 +1,7 @@
+{
+  "name": "RemoteLocation",
+  "base": "Location",
+  "plural": "Locations",
+  "trackChanges": false,
+  "enableRemoteReplication": true
+}

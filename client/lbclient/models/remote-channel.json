@@ -1,0 +1,7 @@
+{
+  "name": "RemoteChannel",
+  "base": "Channel",
+  "plural": "Channels",
+  "trackChanges": false,
+  "enableRemoteReplication": true
+}
